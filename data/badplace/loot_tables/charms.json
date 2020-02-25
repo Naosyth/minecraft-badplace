@@ -1,0 +1,139 @@
+{
+    "type":"generic",
+    "pools":[
+        {
+            "rolls":1,
+            "bonus_rolls":0,
+            "entries":[
+                {
+                    "type":"item",
+                    "weight":1,
+                    "name":"minecraft:heart_of_the_sea",
+                    "functions":[
+                        {"function":"set_count","count":1},
+                        {"function":"set_name","name":{"text":"Noden\'s Heart","color":"gold","bold":true}},
+                        {"function":"set_lore","lore":[{"text":"Live long and prosper","color":"white","italic":true}]},
+                        {"function":"set_attributes","modifiers":[
+                            {
+                                "name":"generic.maxHealth",
+                                "attribute":"generic.maxHealth",
+                                "operation":"addition",
+                                "amount": {"min":4,"max":8},
+                                "slot":"offhand"
+                            },
+                            {
+                                "name":"generic.armorToughness",
+                                "attribute":"generic.armorToughness",
+                                "operation":"addition",
+                                "amount": 1,
+                                "slot":"offhand"
+                            }
+                        ]},
+                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                    ]
+                },
+                {
+                    "type":"item",
+                    "weight":1,
+                    "name":"minecraft:feather",
+                    "functions":[
+                        {"function":"set_count","count":1},
+                        {"function":"set_name","name":{"text":"Ambisagrus\' Feather","color":"gold","bold":true}},
+                        {"function":"set_lore","lore":[{"text":"Light as a feather","color":"white","italic":true}]},
+                        {"function":"set_attributes","modifiers":[
+                            {
+                                "name":"generic.movementSpeed",
+                                "attribute":"generic.movementSpeed",
+                                "operation":"multiply_total",
+                                "amount": {"min":0.20,"max":0.35},
+                                "slot":"offhand"
+                            }
+                        ]},
+                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                    ]
+                },
+                {
+                    "type":"item",
+                    "weight":1,
+                    "name":"minecraft:scute",
+                    "functions":[
+                        {"function":"set_count","count":1},
+                        {"function":"set_name","name":{"text":"Toutatis\' Shell","color":"gold","bold":true}},
+                        {"function":"set_lore","lore":[{"text":"Heavy, but strong","color":"white","italic":true}]},
+                        {"function":"set_attributes","modifiers":[
+                            {
+                                "name":"generic.armor",
+                                "attribute":"generic.armor",
+                                "operation":"addition",
+                                "amount": {"min":4,"max":8},
+                                "slot":"offhand"
+                            },
+                            {
+                                "name":"generic.movementSpeed",
+                                "attribute":"generic.movementSpeed",
+                                "operation":"multiply_total",
+                                "amount": -0.20,
+                                "slot":"offhand"
+                            },
+                            {
+                                "name":"generic.knockbackResistance",
+                                "attribute":"generic.knockbackResistance",
+                                "operation":"multiply_total",
+                                "amount": {"min":0.4,"max":0.6},
+                                "slot":"offhand"
+                            }
+                        ]},
+                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                    ]
+                },
+                {
+                    "type":"item",
+                    "weight":1,
+                    "name":"minecraft:dragon_breath",
+                    "functions":[
+                        {"function":"set_count","count":1},
+                        {"function":"set_name","name":{"text":"Agrona\'s Spirit","color":"gold","bold":true}},
+                        {"function":"set_lore","lore":[{"text":"Fight with the spirit of a warrior","color":"white","italic":true}]},
+                        {"function":"set_attributes","modifiers":[
+                            {
+                                "name":"generic.attackSpeed",
+                                "attribute":"generic.attackSpeed",
+                                "operation":"multiply_base",
+                                "amount": {"min":0.10,"max":0.20},
+                                "slot":"offhand"
+                            },
+                            {
+                                "name":"generic.attackDamage",
+                                "attribute":"generic.attackDamage",
+                                "operation":"multiply_base",
+                                "amount": {"min":0.10,"max":0.15},
+                                "slot":"offhand"
+                            }
+                        ]},
+                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                    ]
+                },
+                {
+                    "type":"item",
+                    "weight":1,
+                    "name":"minecraft:gold_nugget",
+                    "functions":[
+                        {"function":"set_count","count":1},
+                        {"function":"set_name","name":{"text":"Bergusia\'s Luck","color":"gold","bold":true}},
+                        {"function":"set_lore","lore":[{"text":"May prosperity be with you","color":"white","italic":true}]},
+                        {"function":"set_attributes","modifiers":[
+                            {
+                                "name":"generic.luck",
+                                "attribute":"generic.luck",
+                                "operation":"multiply_base",
+                                "amount": {"min":0.75,"max":1.25},
+                                "slot":"offhand"
+                            }
+                        ]},
+                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                    ]
+                }
+            ]
+        }
+    ]
+}
