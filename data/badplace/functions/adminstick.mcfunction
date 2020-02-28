@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Beating Stick","color":"red","bold":true}'},AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:9001,Operation:0,UUIDLeast:437585,UUIDMost:387312,Slot:"mainhand"}]} 1

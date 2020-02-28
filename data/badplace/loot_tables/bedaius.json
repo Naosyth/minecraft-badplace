@@ -13,15 +13,15 @@
                 },
                 {
                     "type":"loot_table",
-                    "weight":90,
+                    "weight":88,
                     "name":"badplace:boss_resources",
                     "quality":-1
                 },
                 {
                     "type":"item",
-                    "weight":2,
+                    "weight":3,
                     "name":"minecraft:diamond_axe",
-                    "quality":1,
+                    "quality":2,
                     "functions":[
                         {"function":"set_count","count":1},
                         {"function":"set_name","name":{"text":"Axe of Bedaius","color":"dark_purple","bold":true}},
@@ -34,6 +34,13 @@
                                 "operation":"addition",
                                 "amount": -2,
                                 "slot":"mainhand"
+                            },
+                            {
+                                "name":"generic.attackDamage",
+                                "attribute":"generic.attackDamage",
+                                "operation":"addition",
+                                "amount": 9,
+                                "slot":"mainhand"
                             }
                         ]},
                         {"function":"set_nbt","tag":"{HideFlags:2,RepairCost:1000,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:3s},{id:\"minecraft:bane_of_arthropods\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s}]}"}
@@ -41,7 +48,7 @@
                 },
                 {
                     "type":"item",
-                    "weight":2,
+                    "weight":3,
                     "name":"minecraft:turtle_helmet",
                     "quality":2,
                     "functions":[
