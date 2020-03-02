@@ -1,0 +1,15 @@
+{
+    "values": [
+        "badplace:timers",
+        "badplace:charms/haste_charm",
+        "badplace:charms/jump_charm",
+        "badplace:charms/levitation_charm",
+        "badplace:charms/night_vision_charm",
+        "badplace:items/smoke_bomb",
+        "badplace:items/bedaius_loot_bag",
+        "badplace:items/sonar_helmet",
+        "badplace:items/multitool",
+        "badplace:items/laser",
+        "badplace:sneak"
+    ]
+}

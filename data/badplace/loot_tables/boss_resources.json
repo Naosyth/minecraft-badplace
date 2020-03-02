@@ -16,96 +16,96 @@
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:cobweb",
-                    "quality":-1,
-                    "functions":[{"function":"set_count","count":{"min":4,"max":12}}]
+                    "quality":-2,
+                    "functions":[{"function":"set_count","count":{"min":16,"max":32}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:diamond",
                     "quality":1,
-                    "functions":[{"function":"set_count","count":{"min":2,"max":3}}]
+                    "functions":[{"function":"set_count","count":{"min":8,"max":12}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:emerald",
                     "quality":1,
-                    "functions":[{"function":"set_count","count":{"min":12,"max":3}}]
+                    "functions":[{"function":"set_count","count":{"min":20,"max":40}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:iron_ingot",
-                    "quality":-1,
-                    "functions":[{"function":"set_count","count":{"min":3,"max":9}}]
+                    "quality":-3,
+                    "functions":[{"function":"set_count","count":{"min":48,"max":64}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:gold_ingot",
-                    "quality":-1,
-                    "functions":[{"function":"set_count","count":{"min":3,"max":9}}]
+                    "quality":-3,
+                    "functions":[{"function":"set_count","count":{"min":32,"max":64}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:quartz",
-                    "quality":-1,
-                    "functions":[{"function":"set_count","count":{"min":16,"max":24}}]
+                    "quality":-3,
+                    "functions":[{"function":"set_count","count":{"min":48,"max":64}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:golden_carrot",
                     "quality":-1,
-                    "functions":[{"function":"set_count","count":{"min":4,"max":12}}]
+                    "functions":[{"function":"set_count","count":{"min":12,"max":16}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:coal_block",
                     "quality":-1,
-                    "functions":[{"function":"set_count","count":{"min":6,"max":10}}]
+                    "functions":[{"function":"set_count","count":{"min":24,"max":32}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:redstone_block",
                     "quality":-1,
-                    "functions":[{"function":"set_count","count":{"min":2,"max":4}}]
+                    "functions":[{"function":"set_count","count":{"min":16,"max":24}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:prismarine_shard",
-                    "quality":-1,
-                    "functions":[{"function":"set_count","count":{"min":8,"max":20}}]
+                    "quality":-4,
+                    "functions":[{"function":"set_count","count":{"min":48,"max":64}}]
                 },
                 {
                     "type":"item",
                     "weight":10,
                     "name":"minecraft:prismarine_crystals",
-                    "quality":-1,
-                    "functions":[{"function":"set_count","count":{"min":8,"max":20}}]
+                    "quality":-4,
+                    "functions":[{"function":"set_count","count":{"min":48,"max":64}}]
                 },
                 {
                     "type":"item",
-                    "weight":1,
+                    "weight":2,
                     "name":"minecraft:elytra",
                     "quality":1,
                     "functions":[{"function":"set_count","count":1}]
                 },
                 {
                     "type":"item",
-                    "weight":1,
+                    "weight":2,
                     "name":"minecraft:nether_star",
                     "quality":1,
                     "functions":[{"function":"set_count","count":1}]
                 },
                 {
                     "type":"item",
-                    "weight":1,
+                    "weight":2,
                     "name":"minecraft:enchanted_golden_apple",
                     "quality":1,
                     "functions":[{"function":"set_count","count":1}]

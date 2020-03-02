@@ -28,8 +28,7 @@
                                 "amount": 1,
                                 "slot":"offhand"
                             }
-                        ]},
-                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                        ]}
                     ]
                 },
                 {
@@ -48,8 +47,7 @@
                                 "amount": {"min":0.20,"max":0.35},
                                 "slot":"offhand"
                             }
-                        ]},
-                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                        ]}
                     ]
                 },
                 {
@@ -82,8 +80,7 @@
                                 "amount": {"min":0.4,"max":0.6},
                                 "slot":"offhand"
                             }
-                        ]},
-                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                        ]}
                     ]
                 },
                 {
@@ -109,8 +106,7 @@
                                 "amount": {"min":0.10,"max":0.15},
                                 "slot":"offhand"
                             }
-                        ]},
-                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                        ]}
                     ]
                 },
                 {
@@ -125,12 +121,11 @@
                             {
                                 "name":"generic.luck",
                                 "attribute":"generic.luck",
-                                "operation":"multiply_base",
-                                "amount": {"min":0.75,"max":1.25},
+                                "operation":"addition",
+                                "amount": {"min":1.0,"max":2.0},
                                 "slot":"offhand"
                             }
-                        ]},
-                        {"function":"set_nbt","tag":"{HideFlags:2}"}
+                        ]}
                     ]
                 }
             ]

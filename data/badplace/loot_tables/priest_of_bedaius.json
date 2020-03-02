@@ -7,7 +7,7 @@
             "entries":[
                 {
                     "type":"item",
-                    "weight":97,
+                    "weight":94,
                     "name":"minecraft:coal",
                     "quality": -1,
                     "functions":[{"function":"set_count","count":{"min":1,"max":8}}]
@@ -32,6 +32,28 @@
                             }
                         ]},
                         {"function":"set_nbt","tag":"{HideFlags:2,RepairCost:1000,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:impaling\",lvl:6s},{id:\"minecraft:riptide\",lvl:4s}]}"}
+                    ]
+                },
+                {
+                    "type":"item",
+                    "weight":3,
+                    "name":"minecraft:trident",
+                    "quality":1,
+                    "functions":[
+                        {"function":"set_count","count":1},
+                        {"function":"set_name","name":{"text":"Cursed Trident","color":"dark_blue","bold":true}},
+                        {"function":"set_lore","lore":[{"text":"Dropped by a Priest of Bedaius","color":"white","italic":true}]},
+                        {"function":"set_damage","damage":1.0},
+                        {"function":"set_attributes","modifiers":[
+                            {
+                                "name":"generic.attackDamage",
+                                "attribute":"generic.attackDamage",
+                                "operation":"addition",
+                                "amount": 6,
+                                "slot":"mainhand"
+                            }
+                        ]},
+                        {"function":"set_nbt","tag":"{HideFlags:2,RepairCost:1000,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:impaling\",lvl:6s},{id:\"minecraft:loyalty\",lvl:4s}]}"}
                     ]
                 }
             ]

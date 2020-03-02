@@ -7,19 +7,19 @@
             "entries":[
                 {
                     "type":"loot_table",
-                    "weight":6,
+                    "weight":10,
                     "name":"badplace:charms",
                     "quality":1
                 },
                 {
                     "type":"loot_table",
-                    "weight":88,
+                    "weight":80,
                     "name":"badplace:boss_resources",
                     "quality":-1
                 },
                 {
                     "type":"item",
-                    "weight":3,
+                    "weight":5,
                     "name":"minecraft:diamond_axe",
                     "quality":2,
                     "functions":[
@@ -48,7 +48,7 @@
                 },
                 {
                     "type":"item",
-                    "weight":3,
+                    "weight":5,
                     "name":"minecraft:turtle_helmet",
                     "quality":2,
                     "functions":[
